@@ -1,0 +1,17 @@
+.parent{
+    height:200px;
+    width:80%
+    ;
+    background-color: #046320;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+}
+
+.red{
+    height: 100px;
+    width:100px;
+    background-color: #ec0d0d;
+    border-radius:50%;
+}
