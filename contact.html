@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Us</title>
+    <link rel="stylesheet" href="style3.css">
+	<style>
+        
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #f2f2f2;
+			color: #fffdfd;
+			margin: 0;
+			padding: 0;
+		}
+
+		.container {
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 20px;
+		}
+
+		h1 {
+			text-align: center;
+			margin-top: 0;
+			color: #fd0101;
+		}
+
+		form {
+			background-color: #fff;
+			padding: 20px;
+			border-radius: 5px;
+			box-shadow: 0 0 10px rgba(0,0,0,0.1);
+			margin-top: 20px;
+		}
+
+		label {
+			display: block;
+			margin-bottom: 10px;
+			color: #333;
+			font-weight: bold;
+		}
+
+		input, textarea {
+			display: block;
+			width: 100%;
+			padding: 10px;
+			margin-bottom: 20px;
+			border: 1px solid #ccc;
+			border-radius: 3px;
+		}
+
+		input[type="submit"] {
+			background-color: #003366;
+			color: #fff;
+			border: none;
+			border-radius: 3px;
+			padding: 10px 20px;
+			cursor: pointer;
+			font-size: 16px;
+			transition: background-color 0.3s ease;
+		}
+
+		input[type="submit"]:hover {
+			background-color: #005b96;
+		}
+
+		@media only screen and (max-width: 600px) {
+			h1 {
+				font-size: 24px;
+			}
+		}
+	</style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+          <img src="image/logo hlsc.png" alt="School Logo">
+          <h1>Hemayetpur Laboratory School and College</h1>
+        </div>
+        <nav>
+			<ul>
+				<li class="button"><a href="index.html">Home</a></li>
+				<li class="button"><a href="https://docs.google.com/forms/d/e/1FAIpQLSctHSNT8FUR6EwJfZUaI-8fu9qYRdQIIfSz1Aw4j8vWf4wnBA/viewform">Admissions</a></li>
+				<li class="button"><a href="gallary.html">gallary</a></li>
+				<li class="button"><a href="Teachers.html">Teachers</a></li>
+				<li class="button"><a href="Syllabus.html">Syllabus</a></li>
+				<li class="button"><a href="routine.html">Routine</a></li>
+				<li class="button"><a href="contact.html">Contact Us</a></li>
+			  </ul>
+        </nav>
+      </header>
+
+
+	<div class="container">
+		<h1>Contact Us</h1>
+		<form action="#" method="POST">
+			<label for="name">Name</label>
+			<input type="text" id="name" name="name" required>
+
+			<label for="email">Email</label>
+			<input type="email" id="email" name="email" required>
+
+			<label for="subject">Subject</label>
+			<input type="text" id="subject" name="subject" required>
+
+			<label for="message">Message</label>
+			<textarea id="message" name="message" rows="5" required></textarea>
+
+			<input type="submit" value="Send Message">
+		</form>
+	</div>
+	<footer>
+		<p>&copy; 2023 Hemayetpur Laboratory School and College
+		<br>
+		  All right reserved by Naimur Rahman Emon
+		</p>
+	  </footer>
+	</body>
+</html>
